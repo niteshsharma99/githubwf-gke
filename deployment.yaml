@@ -19,9 +19,9 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: gcr.io/google-samples/hello-app:1.0
+        image: nginx
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         resources:
           requests:
             cpu: 100m
