@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: my-cluster
   GKE_ZONE: us-central1-a
-  DEPLOYMENT_NAME: gke-test
+  DEPLOYMENT_NAME: gke-hello-app
 
 
 jobs:
